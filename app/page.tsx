@@ -20,7 +20,7 @@ export default function Home() {
             <ThemeToggle />
           </div>
         </div>
-        <p className="text-muted-foreground mb-8">从多个信息源获取最新内容，由 AI 生成摘要</p>
+        <p className="text-muted-foreground mb-8">全球前沿科技资讯</p>
 
         <div className="mb-8">
           <Suspense fallback={<div className="w-full md:w-[300px] h-10 bg-muted rounded-md animate-pulse" />}>
