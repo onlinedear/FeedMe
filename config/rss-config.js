@@ -86,7 +86,7 @@ export const config = {
     {
       name: "Bangumi 近一月热门",
       url: "https://rsshub.rssforever.com/bangumi.tv/anime/followrank",
-      category: "番剧资讯",
+      category: "番剧",
     },
   ],
   maxItemsPerFeed: 30,
