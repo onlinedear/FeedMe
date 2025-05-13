@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "FeedMe",
+  title: "🤏新闻好短",
   description: "从多个信息源获取最新内容，AI 生成摘要",
   generator: 'v0.dev',
   icons: {
