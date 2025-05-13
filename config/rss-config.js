@@ -23,6 +23,11 @@ export const config = {
       url: "https://rsshub.rssforever.com/github/issue/headllines/hackernews-daily",
       category: "科技资讯",
     },
+   {
+      name: "全网AI动态",
+      url: "https://sanhua.himrr.com/daily-news/feed",
+      category: "科技资讯",
+    },
     {
       name: "Github 今日热门",
       url: "https://rsshub.rssforever.com/github/trending/daily/any",
