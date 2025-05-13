@@ -21,11 +21,7 @@ export default function Home() {
           </div>
         </div>
         <p className="text-muted-foreground mb-8">全球前沿科技资讯</p>
-          {feedData?.lastUpdated && (
-            <span className="text-xs text-muted-foreground">
-              更新于: {new Date(feedData.lastUpdated).toLocaleString("zh-CN")}
-            </span>
-          )}
+
 
         <div className="mb-8">
           <Suspense fallback={<div className="w-full md:w-[300px] h-10 bg-muted rounded-md animate-pulse" />}>
