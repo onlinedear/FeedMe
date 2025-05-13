@@ -62,11 +62,6 @@ export function RssFeed({ defaultSource }: { defaultSource: string }) {
         <div className="flex items-center gap-2">
           <h2 className="text-2xl font-bold">{displayTitle}</h2>
           {source && <Badge variant="outline">{source.category}</Badge>}
-          {feedData?.lastUpdated && (
-            <span className="text-xs text-muted-foreground">
-              更新于: {new Date(feedData.lastUpdated).toLocaleString("zh-CN")}
-            </span>
-          )}
         </div>
       </div>
 
