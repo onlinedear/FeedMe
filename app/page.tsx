@@ -14,21 +14,10 @@ export default function Home() {
       <div className="container py-10 mx-auto max-w-4xl">
         <div className="flex justify-between items-center mb-6">
           <Link href="/" className="text-4xl font-bold hover:text-primary transition-colors">
-            😋FeedMe
+            🤏新闻好短
           </Link>
           <div className="flex items-center gap-2">
             <ThemeToggle />
-            <a
-              href="https://github.com/Seanium/feedme"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub 仓库"
-            >
-              <Button variant="outline" size="icon" className="relative">
-                <Github className="h-[1.2rem] w-[1.2rem]" />
-                <span className="sr-only">GitHub 仓库</span>
-              </Button>
-            </a>
           </div>
         </div>
         <p className="text-muted-foreground mb-8">从多个信息源获取最新内容，由 AI 生成摘要</p>
