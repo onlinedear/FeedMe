@@ -16,47 +16,47 @@ export const config = {
     {
       name: "Hacker News 近期最佳",
       url: "https://hnrss.org/best",
-      category: "科技资讯",
+      category: "科技",
     },
     {
       name: "Hacker News 历史每日前十",
       url: "https://rsshub.rssforever.com/github/issue/headllines/hackernews-daily",
-      category: "科技资讯",
+      category: "科技",
     },
    {
       name: "全网AI动态",
       url: "https://sanhua.himrr.com/daily-news/feed",
-      category: "科技资讯",
+      category: "科技",
     },
     {
       name: "Github 今日热门",
       url: "https://rsshub.rssforever.com/github/trending/daily/any",
-      category: "代码项目",
+      category: "开源",
     },
     {
       name: "Github 近一周热门",
       url: "https://rsshub.rssforever.com/github/trending/weekly/any",
-      category: "代码项目",
+      category: "开源",
     },
     {
       name: "Hugging Face 每日论文",
       url: "https://rsshub.rssforever.com/huggingface/daily-papers",
-      category: "科研论文",
+      category: "论文",
     },
     {
       name: "Hugging Face 博客",
       url: "https://rsshub.rssforever.com/huggingface/blog",
-      category: "技术博客",
+      category: "博客",
     },
     {
       name: "Google 开发者博客",
       url: "https://rsshub.rssforever.com/google/developers/en",
-      category: "技术博客",
+      category: "博客",
     },
     {
       name: "Google 研究博客",
       url: "https://rsshub.rssforever.com/google/research",
-      category: "技术博客",
+      category: "博客",
     },
     // {
     //   name: "Product Hunt 今日热门",
